@@ -32,6 +32,12 @@ class FigureGeo:
     def perimeter(self):
         pass
 
+    def __str__(self):
+        typeF = str(type(self))
+        stc = str(self.centre)
+        return "Type : "+ typeF +" centre= " + stc + " color=" + str(self.color) 
+
+
 
 
 
